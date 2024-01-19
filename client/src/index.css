@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 62.5%
+}
+
+#banner-box:hover button{
+  background-color: #088178;
+  border: 1px solid #088178;
+}
+
+@media screen and (max-width: 899px) {
+  html {
+    font-size: 57% !important;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  html {
+    font-size: 55% !important;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  html {
+    font-size: 53% !important;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  html {
+    font-size: 51% !important;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  html {
+    font-size: 49% !important;
+  }
+}
