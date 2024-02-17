@@ -8,7 +8,7 @@ import f6 from '../../assets/f6.png'
 
 function Features() {
     return (
-        <div id='home-feature-section' className='flex items-center justify-between flex-wrap py-20 px-32 mobile:justify-evenly mobile:px-10 mobile:py-12'>
+        <div id='home-feature-section' className='flex items-center justify-between flex-wrap pt-28 pb-20 px-32 mobile:justify-evenly mobile:px-10 mobile:py-12'>
 
             <div className='width-[180px] text-center border border-[#cce7d0] rounded-[4px] py-7 px-3.5 shadow-[20px_20px_34px_rgba(0,0,0,0.03)] my-4 mx-0 hover:shadow-[10px_10px_54px_rgba(70,62,221,0.1)] mobile:w-72'>
                 <img className='mb-2 w-full' src={f1} alt="feature1" />

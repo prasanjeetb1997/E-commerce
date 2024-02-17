@@ -12,7 +12,8 @@ module.exports = {
         'banner4-1-img': "url('/src/assets/b7.jpg')",
         'banner4-2-img': "url('/src/assets/b4.jpg')",
         'banner4-3-img': "url('/src/assets/b18.jpg')",
-        'newsletter-img': "url('/src/assets/b14.png')"
+        'newsletter-img': "url('/src/assets/b14.png')",
+        'banner5-img': "url('/src/assets/b1.jpg')",
       }
     },
     screens: {

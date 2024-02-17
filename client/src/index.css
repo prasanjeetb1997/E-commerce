@@ -14,9 +14,29 @@ html {
   font-size: 62.5%
 }
 
+a.active{
+  color: #088178;
+}
+
+a.active::after{
+  background-color: #088178;
+}
+
 #banner-box:hover button{
   background-color: #088178;
   border: 1px solid #088178;
+}
+
+.Dropdown-menu .Dropdown-option {
+  padding: 15px 15px !important;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 59% !important;
+  }
 }
 
 @media screen and (max-width: 899px) {

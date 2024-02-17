@@ -12,7 +12,7 @@ import PayImg from '../../assets/pay.png'
 
 function Footer() {
   return (
-    <footer className='px-32 pt-32 pb-20 flex flex-wrap justify-between mobile:px-12'>
+    <footer className='px-32 pb-20 flex flex-wrap justify-between mobile:px-12'>
       <div id='footer-col-1' className='flex flex-col items-start mb-6'>
         <img className='mb-9 w-[38%]' src={logo} alt="logo" />
         <h4 className='text-[1.7rem] pb-7 font-semibold'>Contact</h4>
@@ -57,7 +57,7 @@ function Footer() {
         <img className='mt-8' src={PayImg} alt="img" />
       </div>
       <div id='footer-copyright-section' className='w-full text-center'>
-        <p className='text-[1.6rem] text-[#9a9daa]'>&#169; 2023, Tech2 etc - HTML CSS Ecommerce Template</p>
+        <p className='text-[1.6rem] text-[#9a9daa]'>&#169; 2023-24, Tech2 etc - HTML CSS Ecommerce </p>
       </div>
     </footer>
   )
